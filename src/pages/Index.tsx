@@ -47,25 +47,32 @@ const Index = () => {
       {/* Hero Section */}
       <section id="home" className="pt-20 pb-16">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <div className="mb-8">
-              <img
-                src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=200&h=200&fit=crop&crop=face"
-                alt="Анна Смирнова"
-                className="w-32 h-32 rounded-full mx-auto mb-6 object-cover"
-              />
-              <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-primary to-pink-600 bg-clip-text text-transparent">
-                Анна Смирнова
-              </h1>
-              <p className="text-xl text-muted-foreground mb-6">
-                Маркетолог • SMM-специалист • Контент-стратег
-              </p>
-              <div className="flex flex-wrap justify-center gap-2 mb-8">
-                <Badge variant="secondary">Instagram</Badge>
-                <Badge variant="secondary">Facebook</Badge>
-                <Badge variant="secondary">TikTok</Badge>
-                <Badge variant="secondary">LinkedIn</Badge>
-                <Badge variant="secondary">Content Marketing</Badge>
+          <div className="max-w-6xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div className="text-center lg:text-left">
+                <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-primary to-pink-600 bg-clip-text text-transparent">
+                  Анна Смирнова
+                </h1>
+                <p className="text-xl text-muted-foreground mb-6">
+                  Маркетолог • SMM-специалист • Контент-стратег
+                </p>
+                <div className="flex flex-wrap justify-center lg:justify-start gap-2 mb-8">
+                  <Badge variant="secondary">Instagram</Badge>
+                  <Badge variant="secondary">Facebook</Badge>
+                  <Badge variant="secondary">TikTok</Badge>
+                  <Badge variant="secondary">LinkedIn</Badge>
+                  <Badge variant="secondary">Content Marketing</Badge>
+                </div>
+              </div>
+              <div className="flex justify-center">
+                <div className="relative">
+                  <img
+                    src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+                    alt="UX/UI дизайнер за работой"
+                    className="rounded-2xl shadow-2xl w-full max-w-md object-cover aspect-[4/5]"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent rounded-2xl"></div>
+                </div>
               </div>
             </div>
 
