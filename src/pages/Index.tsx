@@ -18,7 +18,9 @@ const Index = () => {
       <header className="fixed top-0 w-full bg-background/80 backdrop-blur-md border-b z-50">
         <div className="container mx-auto px-4 py-4">
           <nav className="flex justify-between items-center">
-            <div className="text-2xl font-bold">Анна Смирнова</div>
+            <div className="text-2xl font-bold font-playfair">
+              Анна Смирнова
+            </div>
             <div className="hidden md:flex space-x-6">
               <a href="#home" className="hover:text-primary transition-colors">
                 Главная
@@ -54,7 +56,7 @@ const Index = () => {
                 alt="Анна Смирнова"
                 className="w-32 h-32 rounded-full mx-auto mb-6 object-cover"
               />
-              <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">
+              <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-primary to-pink-600 bg-clip-text text-transparent font-playfair">
                 Анна Смирнова
               </h1>
               <p className="text-xl text-muted-foreground mb-6">
@@ -97,7 +99,7 @@ const Index = () => {
       <section id="works" className="py-16 bg-muted/50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Работы</h2>
+            <h2 className="text-3xl font-bold mb-4 font-playfair">Работы</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               Избранные проекты и кейсы, которые принесли реальные результаты
             </p>
@@ -214,7 +216,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold mb-4">Обо мне</h2>
+              <h2 className="text-3xl font-bold mb-4 font-playfair">Обо мне</h2>
               <p className="text-muted-foreground max-w-2xl mx-auto">
                 Помогаю брендам находить свою аудиторию и строить долгосрочные
                 отношения через качественный контент
@@ -319,7 +321,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold mb-4">Резюме</h2>
+              <h2 className="text-3xl font-bold mb-4 font-playfair">Резюме</h2>
               <p className="text-muted-foreground">
                 Мой путь в маркетинге и достижения
               </p>
